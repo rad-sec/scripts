@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Simple script to grab bounty targets (which is updated every hour) and compare difference to identify new targets - then send slack notification
+# The script piggy backs off https://github.com/arkadiyt/bounty-targets-data 
 
 # Add your slack webhook here
 HOOK=""

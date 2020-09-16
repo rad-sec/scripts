@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Monitor Private Burp Collaborator log file and send webook to slack channel. 
-# Run with: ./tail-slack.sh "burp.log" "https://hooks.slack.com/services/XXX..."
+# Run with: ./tail-slack.sh "burp.log" "https://hooks.slack.com/services/XXX..." &
 
 CHANNEL="#burp-collaborator"
 
